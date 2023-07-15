@@ -4,11 +4,11 @@
 
 ## REmind_M3 Full Stack App (Part A)
 
-[![github icon](https://skills.thijs.gg/icons?i=github)](https://skills.thijs.gg) [T3A2-A Github Repo](https://github.com/Cheese-steak-jimmys/REmind_M3-docs)  
-  
-  <img src="https://d33wubrfki0l68.cloudfront.net/96c17da373ab36f886cfc255d2de340a476c3b49/eb40a/assets/images/tool-icons/trello.png" alt="drawing" width="43"/> [T3A2-A Trello board](https://trello.com/b/ji5PjIUX)
+[![github icon](https://skills.thijs.gg/icons?i=github)](https://skills.thijs.gg) [T3A2-A Github Repo](https://github.com/Cheese-steak-jimmys/REmind_M3-docs)
 
-  ## Table of Contents
+<img src="https://d33wubrfki0l68.cloudfront.net/96c17da373ab36f886cfc255d2de340a476c3b49/eb40a/assets/images/tool-icons/trello.png" alt="drawing" width="43"/> [T3A2-A Trello board](https://trello.com/b/ji5PjIUX)
+
+## Table of Contents
 
 - [Description](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#description)
 - [Purpose](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#purpose)
@@ -19,7 +19,7 @@
 - [Application Architecture](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#application-architecture-diagram)
 - [User Stories](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#user-stories)
 - [Wireframes](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#wireframes)
-- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#trello-board)
+- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board-(Kanban)---Working-Screen-Shots)
 
 ## Description
 
@@ -69,11 +69,11 @@ This is the app description.
 
 [![VSCode icon](https://skills.thijs.gg/icons?i=vscode)](https://skills.thijs.gg) Visual Studio Code
 
-
 #### Design Tools
 
 [![figma icon](https://skills.thijs.gg/icons?i=figma)](https://skills.thijs.gg)
- [Figma](https://www.figma.com/)
+[Figma](https://www.figma.com/)
+
 - [diagrams.net](https://app.diagrams.net/)
 - [Xtensio](https://xtensio.com/)
 - dallE image generator
@@ -88,21 +88,22 @@ This is the app description.
 
 ## User Stories
 
-### **Stage One** - User Stories  
-  
-## Wireframes  
-  
-#### Homepage![Dataflow Diagram](docs/img/homepage-wireframe-draw-ss.png)  
-  
-#### Homepage - Signup![Dataflow Diagram](docs/img/homepage-signup-wireframe-draw-ss.png)  
-  
-#### Profile Page![Dataflow Diagram](docs/img/profile-wireframe-draw-ss.png)  
-  
-#### Wall Page![Dataflow Diagram](docs/img/wall-wireframe-draw-ss.png)  
-___________________________________
-  
-## Trello (Kanban) Working Screen Shots  
+### **Stage One** - User Stories
 
-#### Kanban Starting Point![Trello Board](docs/trello-ss/trello-T3A2-A-base-ss.png)  
-  
+## Wireframes
+
+#### Homepage![Dataflow Diagram](docs/img/homepage-wireframe-draw-ss.png)
+
+#### Homepage - Signup![Dataflow Diagram](docs/img/homepage-signup-wireframe-draw-ss.png)
+
+#### Profile Page![Dataflow Diagram](docs/img/profile-wireframe-draw-ss.png)
+
+#### Wall Page![Dataflow Diagram](docs/img/wall-wireframe-draw-ss.png)
+
+---
+
+## Trello Board (Kanban) - Working Screen Shots
+
+#### Kanban Starting Point![Trello Board](docs/trello-ss/trello-T3A2-A-base-ss.png)
+
 #### Making Card labels for priority![Trello Board labels](docs/trello-ss/trello-T3A2-A-label-ss.png)
