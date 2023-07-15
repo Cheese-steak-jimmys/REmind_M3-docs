@@ -19,7 +19,7 @@
 - [Application Architecture](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#application-architecture-diagram)
 - [User Stories](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#user-stories)
 - [Wireframes](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#wireframes)
-- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board-(Kanban)---Working-Screen-Shots)
+- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board-(Kanban)-Working-Screen-Shots)
 
 ## Description
 
