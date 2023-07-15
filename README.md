@@ -4,8 +4,9 @@
 
 ## REmind_M3 Full Stack App (Part A)
 
-- [Github Repo](https://github.com/Cheese-steak-jimmys/REmind_M3-docs)
-- [Trello board](https://trello.com/b/ji5PjIUX)
+[![github icon](https://skills.thijs.gg/icons?i=github)](https://skills.thijs.gg) [T3A2-A Github Repo](https://github.com/Cheese-steak-jimmys/REmind_M3-docs)  
+  
+  <img src="https://d33wubrfki0l68.cloudfront.net/96c17da373ab36f886cfc255d2de340a476c3b49/eb40a/assets/images/tool-icons/trello.png" alt="drawing" width="43"/> [T3A2-A Trello board](https://trello.com/b/ji5PjIUX)
 
   ## Table of Contents
 
@@ -62,13 +63,17 @@ This is the app description.
 
 #### **DevOps Tools**
 
-- [git](https://git-scm.com/)
-- [GitHub](https://github.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
+[![git icon](https://skills.thijs.gg/icons?i=git)](https://skills.thijs.gg) Git
+
+[![github icon](https://skills.thijs.gg/icons?i=github)](https://skills.thijs.gg) GitHub
+
+[![VSCode icon](https://skills.thijs.gg/icons?i=vscode)](https://skills.thijs.gg) Visual Studio Code
+
 
 #### Design Tools
 
-- [Figma](https://www.figma.com/)
+[![figma icon](https://skills.thijs.gg/icons?i=figma)](https://skills.thijs.gg)
+ [Figma](https://www.figma.com/)
 - [diagrams.net](https://app.diagrams.net/)
 - [Xtensio](https://xtensio.com/)
 - dallE image generator
@@ -87,8 +92,17 @@ This is the app description.
   
 ## Wireframes  
   
-Homepage![Dataflow Diagram](docs/img/homepage-wireframe-draw-ss.png)  
+#### Homepage![Dataflow Diagram](docs/img/homepage-wireframe-draw-ss.png)  
   
-Homepage - Signup![Dataflow Diagram](docs/img/homepage-signup-wireframe-draw-ss.png)  
+#### Homepage - Signup![Dataflow Diagram](docs/img/homepage-signup-wireframe-draw-ss.png)  
   
-Profile Page![Dataflow Diagram](docs/img/profile-wireframe-draw-ss.png)
+#### Profile Page![Dataflow Diagram](docs/img/profile-wireframe-draw-ss.png)  
+  
+#### Wall Page![Dataflow Diagram](docs/img/wall-wireframe-draw-ss.png)  
+___________________________________
+  
+## Trello (Kanban) Working Screen Shots  
+
+#### Kanban Starting Point![Trello Board](docs/trello-ss/trello-T3A2-A-base-ss.png)  
+  
+#### Making Card labels for priority![Trello Board labels](docs/trello-ss/trello-T3A2-A-label-ss.png)
