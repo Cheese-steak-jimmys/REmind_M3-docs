@@ -21,12 +21,14 @@
 - [Wireframes](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#wireframes)
 - [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board)
 
+---------------------------  
+
 ### Description
 
 REmind_M3  
 Have you ever missed an astronomical event, like witnessing the blood moon in 2022 or missing a show when your favourite 90's artist was in town?
 
-Maybe you didn't know. Maybe you did and forgot.
+Maybe you didn't know? Maybe you did and forgot?
 
 This is an app that will give you a notification when you don't want to miss out on something.  
 Create events for your eyes only or viewable on a public forum. Add someone else's to your list, who knows what you may discover.
@@ -148,7 +150,7 @@ This application could be recommended to all adults, professionals and anyone th
 
 ## User Stories
 
-As a working student, I want to stay ahead of things and i will use this service to help achieve that.
+As a working student, I want to stay ahead of things and I will use this service to help achieve that.
 
 As a guest user, I want to be able to view posts on a public wall and indicate that I would like to receive notifications for events described in those posts so that I can stay informed even if I don't have an account.
 
