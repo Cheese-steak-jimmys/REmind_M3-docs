@@ -19,13 +19,20 @@
 - [Application Architecture](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#application-architecture-diagram)
 - [User Stories](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#user-stories)
 - [Wireframes](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#wireframes)
-- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board-(Kanban)-Working-Screen-Shots)
+- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board-(Kanban))
 
 ## Description
 
-This is the app description.
+REmind_M3  
+Have you ever missed an astronomical event, like witnessing the blood moon in 2022 or missing a show when your favourite 90's artist was in town?  
+  
+Maybe you didn't know. Maybe you did and forgot.  
+  
+This is an app that will give you a notification when you don't want to miss out on something.  
+Create events for your eyes only or viewable on a public forum. Add someone else's to your list, who knows what you may discover.
 
-### Purpose
+### Purpose  
+The purpose of this application is to help people stay informed by keep ahead of events, get the most out of their interests and share with others.
 
 ### Functionality / features
 
@@ -74,13 +81,34 @@ This is the app description.
 [![figma icon](https://skills.thijs.gg/icons?i=figma)](https://skills.thijs.gg)
 [Figma](https://www.figma.com/)
 
-- [diagrams.net](https://app.diagrams.net/)
+- [Lucidchart](https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial#top)
 - [Xtensio](https://xtensio.com/)
 - dallE image generator
 
 ## Dataflow Diagram
 
-![Dataflow Diagram](./docs/dataflowDiagram/dataflowDiagram.PNG)
+![Dataflow Diagram](docs/img/data-flow-diagram.png)  
+#### Detail  
+1. The user interacts with the User Interface (UI) to log in, create an account, continue as a guest, or log in using an API from GitHub or Google.
+
+2. If the user chooses to log in using an API, the UI sends a request to the Server to authenticate the user through the selected API.
+
+3. If the user chooses to log in or create an account, the UI sends the appropriate request to the Server, which authenticates the user’s credentials or creates a new account in the Database.
+
+4. Once authenticated or if continuing as a guest, the user can view posts on a public wall through the UI, which sends a request to the Server to retrieve public posts from the Database.
+
+5. If the user is a guest and checks a box next to a post to indicate that they would like to receive notifications for the event described in that post, they are prompted to sign up for an account.
+
+6. If the user is logged in, they can create a new post through the UI, specifying whether it should be private or public and including information about an event (such as date and time).  
+*The user may also choose to include a GIF from Giphy which sends a request to the Giphy API to retrieve relevant GIFs. This is only the case if i have time to include it.*
+
+7. The UI sends a request to the Server to store the post in the Database.
+
+8. The user can also view their profile page through the UI (if logged in), which sends a request to the Server to retrieve all of their posts (both private and public) as well as public posts from other users that they have checked to receive notifications for.
+
+9.  When an event described in a post occurs, the Server sends a notification to the user through the UI (if logged in).
+
+10.  The Server processes these requests and sends responses back to the UI, which displays the data (and GIFs, if applicable) to the user.
 
 ## Application Architecture Diagram
 
@@ -102,8 +130,9 @@ This is the app description.
 
 ---
 
-## Trello Board (Kanban) - Working Screen Shots
-
+## Trello Board (Kanban)
 #### Kanban Starting Point![Trello Board](docs/trello-ss/trello-T3A2-A-base-ss.png)
 
-#### Making Card labels for priority![Trello Board labels](docs/trello-ss/trello-T3A2-A-label-ss.png)
+#### Making Card labels for priority![Trello Board labels](docs/trello-ss/trello-T3A2-A-label-ss.png)  
+  
+#### Progression of agile method![Trello Board labels](docs/trello-ss/trello-progress-01-ss.png)
