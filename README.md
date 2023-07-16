@@ -40,7 +40,8 @@ The purpose of this application is to help people stay informed by keep ahead of
 * View main listings as a guest user or sign up to obtain a profile.
 * Edit and delete events.  
 * Events can be private or viewable to all on a public wall.  
-* View and save others events, get notifications when they do.
+* View and save others events, get notifications when they do.  
+* Responsive design.
 
 
 ### Tech Stack
@@ -50,8 +51,11 @@ The purpose of this application is to help people stay informed by keep ahead of
 ### **Front-end**
 
 [![My Skills](https://skills.thijs.gg/icons?i=html)](https://skills.thijs.gg) HTML  
+
 [![My Skills](https://skills.thijs.gg/icons?i=js)](https://skills.thijs.gg) JavaScript  
+
 [![My Skills](https://skills.thijs.gg/icons?i=css)](https://skills.thijs.gg) CSS  
+
 [![My Skills](https://skills.thijs.gg/icons?i=react)](https://skills.thijs.gg) React
 
 #### **Back-end**
@@ -88,11 +92,11 @@ The purpose of this application is to help people stay informed by keep ahead of
 [![figma icon](https://skills.thijs.gg/icons?i=figma)](https://skills.thijs.gg)
 [Figma](https://www.figma.com/)
 
-- [Lucidchart](https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial#top)
+<img src="https://cdn-1.webcatalog.io/catalog/lucidchart/lucidchart-icon-filled-256.png?v=1687771717771https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/800px-Canva_icon_2021.svg.png" alt="drawing" width="43"/>[Lucidchart](https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial#top)
 
-- [DALL-E Image Generator](https://www.bing.com/create)  
+<img src="https://image.winudf.com/v2/image1/Y29tLk1hcnRpbkFwcHMuREFMTEVtaW5pQUlGdW5ueWltYWdlc19pY29uXzE2NjEwODEyNzhfMDUy/icon.png?w=184&fakeurl=1" alt="drawing" width="43"/> [DALL-E Image Generator](https://www.bing.com/create)  
 
-- [Canva](https://www.canva.com/)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/800px-Canva_icon_2021.svg.png" alt="drawing" width="43"/>[Canva](https://www.canva.com/)
 
 
 ## Dataflow Diagram
@@ -127,7 +131,7 @@ The purpose of this application is to help people stay informed by keep ahead of
 ## User Stories 
 
 
-### Personas  
+### User Personas to assist with agile methodology project managment
 ![Personas](docs/img/personas-ss.png)
 
 ## Wireframes
@@ -147,4 +151,7 @@ The purpose of this application is to help people stay informed by keep ahead of
 
 #### Making Card labels for priority![Trello Board labels](docs/trello-ss/trello-T3A2-A-label-ss.png)  
   
-#### Progression of agile method![Trello Board labels](docs/trello-ss/trello-progress-01-ss.png)
+#### Progression of agile method![Trello Board Progress](docs/trello-ss/trello-progress-01-ss.png)  
+  
+#### More cards complete and some moved to the T3A2-B board![Trello Board progress 02](docs/trello-ss/trello-progress-02-ss.png)
+
