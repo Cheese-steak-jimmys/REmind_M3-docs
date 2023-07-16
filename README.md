@@ -22,40 +22,50 @@
 - [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board)
 
 ### Description
+
 REmind_M3  
-Have you ever missed an astronomical event, like witnessing the blood moon in 2022 or missing a show when your favourite 90's artist was in town?  
-  
-Maybe you didn't know. Maybe you did and forgot.  
-  
+Have you ever missed an astronomical event, like witnessing the blood moon in 2022 or missing a show when your favourite 90's artist was in town?
+
+Maybe you didn't know. Maybe you did and forgot.
+
 This is an app that will give you a notification when you don't want to miss out on something.  
 Create events for your eyes only or viewable on a public forum. Add someone else's to your list, who knows what you may discover.
-_______________________________________
-### Purpose  
+
+---
+
+### Purpose
+
 The purpose of this application is to help people stay informed by keep ahead of events, get the most out of their interests and share with others.
-___________________________________________
+
+---
+
 ### Functionality / features
 
-* Create events that trigger an alert at a desired time and date.  
-* View main listings as a guest user or sign up to obtain a profile.
-* Edit and delete events.  
-* Events can be private or viewable to all on a public wall.  
-* View and save others events, get notifications when they do.  
-* Responsive design.
-____________________________________________
-### Target Audience  
+- Create events that trigger an alert at a desired time and date.
+- View main listings as a guest user or sign up to obtain a profile.
+- Edit and delete events.
+- Events can be private or viewable to all on a public wall.
+- View and save others events, get notifications when they do.
+- Responsive design.
+
+---
+
+### Target Audience
+
 The target audience for this app is mostly young adults that feel as though time is speeding up.  
 This application could be recommended to all adults, professionals and anyone that has ever said "I would have liked that, but I had no idea about it."
-________________________________________________
-### Tech Stack
 
+---
+
+### Tech Stack
 
 ### **Front-end**
 
-[![My Skills](https://skills.thijs.gg/icons?i=html)](https://skills.thijs.gg) HTML  
+[![My Skills](https://skills.thijs.gg/icons?i=html)](https://skills.thijs.gg) HTML
 
-[![My Skills](https://skills.thijs.gg/icons?i=js)](https://skills.thijs.gg) JavaScript  
+[![My Skills](https://skills.thijs.gg/icons?i=js)](https://skills.thijs.gg) JavaScript
 
-[![My Skills](https://skills.thijs.gg/icons?i=css)](https://skills.thijs.gg) CSS  
+[![My Skills](https://skills.thijs.gg/icons?i=css)](https://skills.thijs.gg) CSS
 
 [![My Skills](https://skills.thijs.gg/icons?i=react)](https://skills.thijs.gg) React
 
@@ -86,8 +96,8 @@ ________________________________________________
 
 [![github icon](https://skills.thijs.gg/icons?i=github)](https://skills.thijs.gg) GitHub
 
-[![VSCode icon](https://skills.thijs.gg/icons?i=vscode)](https://skills.thijs.gg) Visual Studio Code  
-  
+[![VSCode icon](https://skills.thijs.gg/icons?i=vscode)](https://skills.thijs.gg) Visual Studio Code
+
 <img src="https://www.vhv.rs/dpng/d/571-5718602_transparent-ubuntu-logo-png-logo-postman-icon-png.png" alt="drawing" width="43"/>[Postman](https://www.postman.com/)
 
 #### Design Tools
@@ -97,18 +107,17 @@ ________________________________________________
 
 <img src="https://cdn-1.webcatalog.io/catalog/lucidchart/lucidchart-icon-filled-256.png?v=1687771717771https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/800px-Canva_icon_2021.svg.png" alt="drawing" width="43"/>[Lucidchart](https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial#top)
 
-<img src="https://image.winudf.com/v2/image1/Y29tLk1hcnRpbkFwcHMuREFMTEVtaW5pQUlGdW5ueWltYWdlc19pY29uXzE2NjEwODEyNzhfMDUy/icon.png?w=184&fakeurl=1" alt="drawing" width="43"/> [DALL-E Image Generator](https://www.bing.com/create)  
+<img src="https://image.winudf.com/v2/image1/Y29tLk1hcnRpbkFwcHMuREFMTEVtaW5pQUlGdW5ueWltYWdlc19pY29uXzE2NjEwODEyNzhfMDUy/icon.png?w=184&fakeurl=1" alt="drawing" width="43"/> [DALL-E Image Generator](https://www.bing.com/create)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/800px-Canva_icon_2021.svg.png" alt="drawing" width="43"/>[Canva](https://www.canva.com/)  
-  
-<img src="https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png" alt="drawing" width="43"/>[Balsamiq](https://balsamiq.com/)  
-  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/800px-Canva_icon_2021.svg.png" alt="drawing" width="43"/>[Canva](https://www.canva.com/)
+
+<img src="https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png" alt="drawing" width="43"/>[Balsamiq](https://balsamiq.com/)
+
 <img src="https://pomdtr.gallerycdn.vsassets.io/extensions/pomdtr/excalidraw-editor/3.5.1/1681661741586/Microsoft.VisualStudio.Services.Icons.Default" alt="drawing" width="43"/>[Excalidraw](https://excalidraw.com/)
-
 
 ## Dataflow Diagram
 
-![Dataflow Diagram](docs/img/data-flow-diagram.png)  
+![Dataflow Diagram](docs/img/data-flow-diagram.png)
 
 #### Detail
 
@@ -123,54 +132,56 @@ ________________________________________________
 5. If the user is a guest and checks a box next to a post to indicate that they would like to receive notifications for the event described in that post, they are prompted to sign up for an account.
 
 6. If the user is logged in, they can create a new post through the UI, specifying whether it should be private or public and including information about an event (such as date and time).  
-*The user may also choose to include a GIF from Giphy which sends a request to the Giphy API to retrieve relevant GIFs. This is only the case if I have time to include it.*
+   _The user may also choose to include a GIF from Giphy which sends a request to the Giphy API to retrieve relevant GIFs. This is only the case if I have time to include it._
 
 7. The UI sends a request to the Server to store the post in the Database.
 
 8. The user can also view their profile page through the UI (if logged in), which sends a request to the Server to retrieve all of their posts (both private and public) as well as public posts from other users that they have checked to receive notifications for.
 
-9.  When an event described in a post occurs, the Server sends a notification to the user through the UI (if logged in).
+9. When an event described in a post occurs, the Server sends a notification to the user through the UI (if logged in).
 
-10.  The Server processes these requests and sends responses back to the UI, which displays the data (and GIFs, if applicable) to the user.
+10. The Server processes these requests and sends responses back to the UI, which displays the data to the user.
 
 ## Application Architecture Diagram
 
 ![Application Architecture Diagram](docs/img/AAD-ss.png)
 
-## User Stories 
-As a working student, I want to stay ahead of things and i will use this service to help achieve that.  
-  
-As a guest user, I want to be able to view posts on a public wall and indicate that I would like to receive notifications for events described in those posts so that I can stay informed even if I don't have an account.  
-  
-As a person that gets fixated on the things that interest me most, I want to be reminded about some of the events that I know I will leave to the last second, or not at all.  
-  
+## User Stories
+
+As a working student, I want to stay ahead of things and i will use this service to help achieve that.
+
+As a guest user, I want to be able to view posts on a public wall and indicate that I would like to receive notifications for events described in those posts so that I can stay informed even if I don't have an account.
+
+As a person that gets fixated on the things that interest me most, I want to be reminded about some of the events that I know I will leave to the last second, or not at all.
+
 As a city lover, I would like to see some of the events my fellow dwellers are getting up to. Its bound to be good.
 
-As someone with a passion for drama, I'm going to make public events that notify others when theatre and ballet productions are coming to town.
+As someone with a passion for drama, I'm going to make public events that can notify others (if they choose) when theatre and ballet productions are coming to town.
 
 ### User Personas to assist with agile methodology project managment
+
 ![Personas](docs/img/personas-ss.png)
 
 ## Wireframes
-  
+
 #### Homepage (raw)![raw wireframe](docs/trello-ss/wireframe-homepage-raw-ss.png)
 
 #### Homepage![homepage wireframe](docs/img/homepage-wireframe-draw-ss.png)
 
-#### Homepage - Signup![sign up wireframe](docs/img/homepage-signup-wireframe-draw-ss.png)  
-  
+#### Homepage - Signup![sign up wireframe](docs/img/homepage-signup-wireframe-draw-ss.png)
+
 #### Wall Page![event wall WF](docs/img/wall-wireframe-draw-ss.png)
 
-
 #### Profile Page![Profile WF](docs/img/profile-wireframe-draw-ss.png)
+
 ---
 
 ## Trello Board (Kanban)
+
 #### Kanban Starting Point![Trello Board](docs/trello-ss/trello-T3A2-A-base-ss.png)
 
-#### Making Card labels for priority![Trello Board labels](docs/trello-ss/trello-T3A2-A-label-ss.png)  
-  
-#### Progression of agile method![Trello Board Progress](docs/trello-ss/trello-progress-01-ss.png)  
-  
-#### More cards complete and some moved to the T3A2-B board![Trello Board progress 02](docs/trello-ss/trello-progress-02-ss.png)
+#### Making Card labels for priority![Trello Board labels](docs/trello-ss/trello-T3A2-A-label-ss.png)
 
+#### Progression of agile method![Trello Board Progress](docs/trello-ss/trello-progress-01-ss.png)
+
+#### More cards complete and some moved to the T3A2-B board![Trello Board progress 02](docs/trello-ss/trello-progress-02-ss.png)
