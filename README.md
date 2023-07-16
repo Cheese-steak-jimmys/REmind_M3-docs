@@ -19,7 +19,7 @@
 - [Application Architecture](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#application-architecture-diagram)
 - [User Stories](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#user-stories)
 - [Wireframes](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#wireframes)
-- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board-(Kanban))
+- [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board)
 
 ## Description
 
@@ -35,6 +35,13 @@ Create events for your eyes only or viewable on a public forum. Add someone else
 The purpose of this application is to help people stay informed by keep ahead of events, get the most out of their interests and share with others.
 
 ### Functionality / features
+
+* Create events that trigger an alert at a desired time and date.  
+* View main listings as a guest user or sign up to obtain a profile.
+* Edit and delete events.  
+* Events can be private or viewable to all on a public wall.  
+* View and save others events, get notifications when they do.
+
 
 ### Tech Stack
 
@@ -66,7 +73,7 @@ The purpose of this application is to help people stay informed by keep ahead of
 #### **Testing**
 
 - [Cypress](https://www.cypress.io/)
-- [Mocha](https://mochajs.org/)
+- [Jestjs](https://jestjs.io/)
 
 #### **DevOps Tools**
 
@@ -82,8 +89,11 @@ The purpose of this application is to help people stay informed by keep ahead of
 [Figma](https://www.figma.com/)
 
 - [Lucidchart](https://www.lucidchart.com/pages/what-is-a-flowchart-tutorial#top)
-- [Xtensio](https://xtensio.com/)
-- dallE image generator
+
+- [DALL-E Image Generator](https://www.bing.com/create)  
+
+- [Canva](https://www.canva.com/)
+
 
 ## Dataflow Diagram
 
@@ -91,16 +101,16 @@ The purpose of this application is to help people stay informed by keep ahead of
 #### Detail  
 1. The user interacts with the User Interface (UI) to log in, create an account, continue as a guest, or log in using an API from GitHub or Google.
 
-2. If the user chooses to log in using an API, the UI sends a request to the Server to authenticate the user through the selected API.
+2. If the user chooses to log in using an API, the browser sends a request to the Server to authenticate the user through the selected API.
 
-3. If the user chooses to log in or create an account, the UI sends the appropriate request to the Server, which authenticates the user’s credentials or creates a new account in the Database.
+3. If the user chooses to log in or create an account, the browser sends the appropriate request to the Server, which authenticates the user’s credentials or creates a new account in the Database.
 
 4. Once authenticated or if continuing as a guest, the user can view posts on a public wall through the UI, which sends a request to the Server to retrieve public posts from the Database.
 
 5. If the user is a guest and checks a box next to a post to indicate that they would like to receive notifications for the event described in that post, they are prompted to sign up for an account.
 
 6. If the user is logged in, they can create a new post through the UI, specifying whether it should be private or public and including information about an event (such as date and time).  
-*The user may also choose to include a GIF from Giphy which sends a request to the Giphy API to retrieve relevant GIFs. This is only the case if i have time to include it.*
+*The user may also choose to include a GIF from Giphy which sends a request to the Giphy API to retrieve relevant GIFs. This is only the case if I have time to include it.*
 
 7. The UI sends a request to the Server to store the post in the Database.
 
@@ -112,22 +122,24 @@ The purpose of this application is to help people stay informed by keep ahead of
 
 ## Application Architecture Diagram
 
-![Application Architecture Diagram](./docs/applicationArchitecture/architecture-diagram.PNG)
+![Application Architecture Diagram](docs/img/AAD-ss.png)
 
-## User Stories
+## User Stories 
 
-### **Stage One** - User Stories
+
+### Personas  
+![Personas](docs/img/personas-ss.png)
 
 ## Wireframes
 
 #### Homepage![Dataflow Diagram](docs/img/homepage-wireframe-draw-ss.png)
 
-#### Homepage - Signup![Dataflow Diagram](docs/img/homepage-signup-wireframe-draw-ss.png)
-
-#### Profile Page![Dataflow Diagram](docs/img/profile-wireframe-draw-ss.png)
-
+#### Homepage - Signup![Dataflow Diagram](docs/img/homepage-signup-wireframe-draw-ss.png)  
+  
 #### Wall Page![Dataflow Diagram](docs/img/wall-wireframe-draw-ss.png)
 
+
+#### Profile Page![Dataflow Diagram](docs/img/profile-wireframe-draw-ss.png)
 ---
 
 ## Trello Board (Kanban)
