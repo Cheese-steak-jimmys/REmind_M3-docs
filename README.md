@@ -21,8 +21,7 @@
 - [Wireframes](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#wireframes)
 - [Trello Board](https://github.com/Cheese-steak-jimmys/REmind_M3-docs#Trello-Board)
 
-## Description
-
+### Description
 REmind_M3  
 Have you ever missed an astronomical event, like witnessing the blood moon in 2022 or missing a show when your favourite 90's artist was in town?  
   
@@ -30,10 +29,10 @@ Maybe you didn't know. Maybe you did and forgot.
   
 This is an app that will give you a notification when you don't want to miss out on something.  
 Create events for your eyes only or viewable on a public forum. Add someone else's to your list, who knows what you may discover.
-
+_______________________________________
 ### Purpose  
 The purpose of this application is to help people stay informed by keep ahead of events, get the most out of their interests and share with others.
-
+___________________________________________
 ### Functionality / features
 
 * Create events that trigger an alert at a desired time and date.  
@@ -42,11 +41,13 @@ The purpose of this application is to help people stay informed by keep ahead of
 * Events can be private or viewable to all on a public wall.  
 * View and save others events, get notifications when they do.  
 * Responsive design.
-
-
+____________________________________________
+### Target Audience  
+The target audience for this app is mostly young adults that feel as though time is speeding up.  
+This application could be recommended to all adults, professionals and anyone that has ever said "I would have liked that, but I had no idea about it."
+________________________________________________
 ### Tech Stack
 
----
 
 ### **Front-end**
 
@@ -85,7 +86,9 @@ The purpose of this application is to help people stay informed by keep ahead of
 
 [![github icon](https://skills.thijs.gg/icons?i=github)](https://skills.thijs.gg) GitHub
 
-[![VSCode icon](https://skills.thijs.gg/icons?i=vscode)](https://skills.thijs.gg) Visual Studio Code
+[![VSCode icon](https://skills.thijs.gg/icons?i=vscode)](https://skills.thijs.gg) Visual Studio Code  
+  
+<img src="https://www.vhv.rs/dpng/d/571-5718602_transparent-ubuntu-logo-png-logo-postman-icon-png.png" alt="drawing" width="43"/>[Postman](https://www.postman.com/)
 
 #### Design Tools
 
@@ -96,13 +99,19 @@ The purpose of this application is to help people stay informed by keep ahead of
 
 <img src="https://image.winudf.com/v2/image1/Y29tLk1hcnRpbkFwcHMuREFMTEVtaW5pQUlGdW5ueWltYWdlc19pY29uXzE2NjEwODEyNzhfMDUy/icon.png?w=184&fakeurl=1" alt="drawing" width="43"/> [DALL-E Image Generator](https://www.bing.com/create)  
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/800px-Canva_icon_2021.svg.png" alt="drawing" width="43"/>[Canva](https://www.canva.com/)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/800px-Canva_icon_2021.svg.png" alt="drawing" width="43"/>[Canva](https://www.canva.com/)  
+  
+<img src="https://balsamiq.com/assets/company/brandassets/smileyface-transparent-1080x1080.png" alt="drawing" width="43"/>[Balsamiq](https://balsamiq.com/)  
+  
+<img src="https://pomdtr.gallerycdn.vsassets.io/extensions/pomdtr/excalidraw-editor/3.5.1/1681661741586/Microsoft.VisualStudio.Services.Icons.Default" alt="drawing" width="43"/>[Excalidraw](https://excalidraw.com/)
 
 
 ## Dataflow Diagram
 
 ![Dataflow Diagram](docs/img/data-flow-diagram.png)  
-#### Detail  
+
+#### Detail
+
 1. The user interacts with the User Interface (UI) to log in, create an account, continue as a guest, or log in using an API from GitHub or Google.
 
 2. If the user chooses to log in using an API, the browser sends a request to the Server to authenticate the user through the selected API.
@@ -129,21 +138,31 @@ The purpose of this application is to help people stay informed by keep ahead of
 ![Application Architecture Diagram](docs/img/AAD-ss.png)
 
 ## User Stories 
+As a working student, I want to stay ahead of things and i will use this service to help achieve that.  
+  
+As a guest user, I want to be able to view posts on a public wall and indicate that I would like to receive notifications for events described in those posts so that I can stay informed even if I don't have an account.  
+  
+As a person that gets fixated on the things that interest me most, I want to be reminded about some of the events that I know I will leave to the last second, or not at all.  
+  
+As a city lover, I would like to see some of the events my fellow dwellers are getting up to. Its bound to be good.
 
+As someone with a passion for drama, I'm going to make public events that notify others when theatre and ballet productions are coming to town.
 
 ### User Personas to assist with agile methodology project managment
 ![Personas](docs/img/personas-ss.png)
 
 ## Wireframes
-
-#### Homepage![Dataflow Diagram](docs/img/homepage-wireframe-draw-ss.png)
-
-#### Homepage - Signup![Dataflow Diagram](docs/img/homepage-signup-wireframe-draw-ss.png)  
   
-#### Wall Page![Dataflow Diagram](docs/img/wall-wireframe-draw-ss.png)
+#### Homepage (raw)![raw wireframe](docs/trello-ss/wireframe-homepage-raw-ss.png)
+
+#### Homepage![homepage wireframe](docs/img/homepage-wireframe-draw-ss.png)
+
+#### Homepage - Signup![sign up wireframe](docs/img/homepage-signup-wireframe-draw-ss.png)  
+  
+#### Wall Page![event wall WF](docs/img/wall-wireframe-draw-ss.png)
 
 
-#### Profile Page![Dataflow Diagram](docs/img/profile-wireframe-draw-ss.png)
+#### Profile Page![Profile WF](docs/img/profile-wireframe-draw-ss.png)
 ---
 
 ## Trello Board (Kanban)
